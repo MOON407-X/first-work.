@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+body{
+ font-family:Helvetica, sans-serif;
+ background:linear-gradient(
+  120deg, rgb(192, 238, 234), #4ea9ac
+ )
+}
+main{
+  margin:auto;
+  width:80%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border-bottom:1px solid black;
+}
+footer{
+text-align:center;
+}
+.link-container{
+  margin:10px;
+}
+.link-container a{
+ display:inline-block;
+ text-decoration: none;
+ border-right:2px solid purple;
+ padding:5px;
+}
+a:last-of-type{
+  border:none;
+ 
+}
